@@ -7,7 +7,7 @@ import java.time.Period;
 import java.time.format.DateTimeFormatter;
 
 
-public class Student extends StudentDetails {
+public class Student  {
     String name;
     String dob;
 
@@ -38,7 +38,6 @@ public class Student extends StudentDetails {
         s.name = "SURAJ UMARANI";
         s.displayName();
         s.displayAge("11-05-2004");
-        StudentDetails  sd = new StudentDetails();
-        sd.displayStudentMarks();
+       
     }
 }
